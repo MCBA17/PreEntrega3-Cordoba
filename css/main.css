@@ -72,14 +72,17 @@ footer {
 footer p {
   color: white;
 }
+footer .footer-icon {
+  width: 2rem;
+}
 @media only screen and (min-width: 768px) {
   footer {
     margin-top: 50px;
     padding-top: 20px;
   }
-}
-footer .footer-icon {
-  width: 3rem;
+  footer .footer-icon {
+    width: 3rem;
+  }
 }
 
 /* Index */
@@ -98,6 +101,18 @@ main section div iframe {
     border-radius: 5%;
   }
 }
+#descargas-container-last {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 4rem;
+}
+
 .descargas-container {
   display: flex;
   flex-direction: row;
@@ -126,7 +141,7 @@ main section div iframe {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20rem;
+  width: 18rem;
   margin-top: 4rem;
   border: 2px solid white;
   border-radius: 5%;
@@ -237,14 +252,23 @@ main section div iframe {
   margin-bottom: 1rem;
 }
 .galeria-container .galeria-img {
-  height: 15rem;
-  width: 25rem;
+  height: 10rem;
+  width: 15rem;
   margin-top: 2rem;
   border-radius: 1rem;
   border: 3px solid white;
 }
 .galeria-container .galeria-img:last-child {
   margin-bottom: 1rem;
+}
+@media only screen and (min-width: 550px) {
+  .galeria-container .galeria-img {
+    height: 15rem;
+    width: 22rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: 3px solid white;
+  }
 }
 @media only screen and (min-width: 768px) {
   .galeria-container {
@@ -301,6 +325,13 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#center-btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0rem;
 }
 
 main section p {
@@ -375,7 +406,6 @@ body.galeria {
   border: 1px solid rgb(77, 195, 235);
   border-radius: 10%;
   font-size: 1.3rem;
-  margin-top: 2rem;
   text-decoration: none;
 }
 .btn1:hover {
@@ -393,8 +423,6 @@ body.galeria {
   .btn1 {
     font-size: 1.5rem;
     padding: 15px;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
   }
 }
 .btn2 {
