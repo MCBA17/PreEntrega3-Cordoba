@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Header */
-/* Colors */
 header {
   background-image: url(../assets/media/header.jpg);
   background-size: cover;
@@ -168,7 +167,6 @@ main section div iframe {
   }
 }
 /* FAQ */
-/* Colors */
 .faq-container {
   background-color: #fdc37b;
   border: 6px solid rgb(68, 34, 34);
@@ -194,7 +192,6 @@ main section div iframe {
 }
 
 /* Ver más */
-/* Colors */
 .card-deck {
   display: flex !important;
   flex-direction: column !important;
@@ -390,7 +387,6 @@ body.galeria {
 }
 
 /* Buttons */
-/* Colors */
 .btn1 {
   background-color: #4285F4;
   color: white;
