@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-size: cover;
+    overflow: auto;
+    background-attachment: fixed;
+}
+body.index, 
+body.descargas, 
+body.faq, 
+body.ver-mas, 
+body.galeria
+
+body.index {
+  background-image: url("../assets/media/gifinicio.gif");
+}
+
+body.descargas {
+  background-image: url("../assets/media/descargas.png");
+}
+
+body.faq {
+  background-image: url("../assets/media/faq.jpg");
+}
+
+body.ver_mas {
+  background-image: url("../assets/media/vermas.jpg");
+}
+
+body.galeria {
+  background-image: url("../assets/media/galeria.jpg");
+}

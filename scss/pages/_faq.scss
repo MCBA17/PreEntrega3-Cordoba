@@ -1,0 +1,25 @@
+.faq-container {
+    background-color: #fdc37b;
+    border: 6px solid rgb(68, 34, 34);
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 1%;
+  
+    .faq-question {
+      color: rgb(68, 34, 34);
+      text-decoration: underline;
+    }
+  
+    .faq-txt {
+      color: #3d3d1d;
+    }
+  
+    @media only screen and (min-width: 768px) {
+      margin-right: 10rem;
+      margin-left: 10rem;
+      .faq-txt{
+        font-size: 1.3rem;
+    }
+    }
+  }
+  

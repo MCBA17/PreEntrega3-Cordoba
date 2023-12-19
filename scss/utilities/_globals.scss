@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    font-family: 'Playpen Sans', cursive;
+}
+li{
+    list-style: none;
+}
+main section p{
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+h1{
+    font-size: 1.5rem!important;
+    color: white;
+    margin-top: 4rem!important;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section p{
+    color: white;
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+.icon-container{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    width: 2rem;
+}
+.title1{
+    font-size: 2.5rem!important;
+    color: white;
+    padding: 1.5rem;
+  }
+.title2{
+    color: white;
+    padding-top: 3rem;
+  }
+  

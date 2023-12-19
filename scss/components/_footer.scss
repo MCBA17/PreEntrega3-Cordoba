@@ -1,0 +1,21 @@
+footer {
+    background-image: url("../assets/media/header.jpg");
+    background-size: cover;
+    padding-bottom: 1%;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid white;
+    margin-top: auto;
+    p {
+      color: white;
+    }
+
+    @media only screen and (min-width: 768px) {
+      margin-top: 50px;
+      padding-top: 20px;
+    }
+    .footer-icon{
+        width: 3rem;
+    }
+  }
+  
